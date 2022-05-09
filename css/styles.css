@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+    background-color: rgb(219, 219, 219);
+    color: rgb(80, 80, 80);
+    
+    /* font-family:'Courier New', Courier, monospace; */
+    font: normal 18px 'Roboto', sans-serif;
+    /* font-size: 18px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif; */
+    
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:active{
+    color: blue;
+}
+
+a:visited{
+    color: gray;
+}
+
+.my_foto{
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 6px 7px 16px rgba(60, 60, 60, 0.5);
+}
+
+.info{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 700px){
+    .info{
+        text-align: center;
+        display: block;
+    }
+}
+
+.info p{
+    color: #808080;
+    margin: 0px;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    /* letter-spacing: 1px;
+    word-spacing: 3px; */
+}
+
+.info-text{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.container{
+    max-width: 800px;
+    margin: auto;
+    padding: 30px 0px 30px 0px;
+}
+
+.networks{
+    padding: 0px;
+    border: 0px 0px;
+    margin: 70px 0px 0px 0px;
+}
+
+.card{
+    background: rgb(235, 235, 235);
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 3px 18px rgba(60, 60, 60, 0.5);
+    max-width: 750px;
+}
+
+.card h2{
+    margin-bottom: 0px 0px 10px 0px;
+}
+
+.table{
+    width: 100%;
+
+}
+
+.table td{
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2){
+    color: rgb(80, 80,80);
+}
+
+.table tr:nth-child(odd){
+    background-color:rgb(200, 200, 200);
+}
+
+.contact h2{
+    text-align: center;
+}
+
+.form-group label{
+    display: block;
+    font-size: 14px;
+    color: #808080;
+}
+
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: rgb(80, 80, 80);
+    padding: 10px 0 5px;
+    outline: none;
+    font-family: inherit;
+
+}
+
+.lab{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.lab > .form-group{
+    width: 50%;
+    margin-right: 20px;
+}
+
+.lab > .form-group:last-child{
+    margin-right: 0px;
+}
+
+.pin{
+    background: rgb(235, 235, 235);
+    color: rgb(80, 80, 80);
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    box-shadow: 2px 3px 18px rgba(60, 60, 60, 0.5);
+}
+
+.pin:hover{
+    opacity: 0.8;
+}
